@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "FlowOps",
+    "slug": "flowops-mobile",
+    "version": "1.0.0",
+    "scheme": "flowops",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.flowops.mobile"
+    },
+    "android": {
+      "package": "com.flowops.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120,
+          "backgroundColor": "#FFFFFF"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "FlowOps needs your photos to attach evidence to a task.",
+          "cameraPermission": "FlowOps needs the camera to capture evidence for a task."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#F2453D"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
