@@ -8,7 +8,10 @@ Built with React Native, Expo, TypeScript, SQLite, TanStack Query, Zustand and S
   <img src="docs/demo.gif" alt="FlowOps demo: sign in, complete a checklist offline, sync on reconnect, attach evidence, complete the task" width="300" />
 </p>
 
-<p align="center"><a href="docs/demo.mp4"><b>▶ Watch the full demo video (69 s, MP4)</b></a></p>
+<p align="center">
+  <a href="https://flowops-mobile.vercel.app"><b>Try the live web demo</b></a> ·
+  <a href="docs/demo.mp4"><b>▶ Watch the full demo video (69 s, MP4)</b></a>
+</p>
 
 ## Features
 

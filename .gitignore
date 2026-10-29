@@ -42,3 +42,5 @@ yarn-error.*
 
 # Supabase credentials (copy .env.example)
 .env
+
+.vercel

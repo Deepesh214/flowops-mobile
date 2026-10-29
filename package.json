@@ -72,5 +72,8 @@
     "setupFiles": [
       "<rootDir>/jest.setup.js"
     ]
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
